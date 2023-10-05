@@ -6,11 +6,9 @@
 #define LEAVER_API __declspec(dllimport)
 #endif
 
-//namespace Leaver
-//{
-	class Leaver {
-	public:
-		std::string leav(std::string name);
-	};
-//}
+class LEAVER_API Leaver {
+public:
+	std::string leav(std::string name);
+};
+
 
